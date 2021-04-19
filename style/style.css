@@ -1,0 +1,104 @@
+span {
+  margin-right: 10px;
+}
+.glyphicon-plus-sign{
+  color: #00887A;
+}
+body{
+  min-height: 100vh;
+  background-color: rgb(248,249,254);
+}
+
+/* background Image*/
+section{
+  background-image: url("../image/finance.jpg");
+  background-size: cover;
+  height:95vh;
+  position: absolute;
+  top:5vh;
+  width: 100%;
+}
+/* main content */
+.main-content{
+   position: relative;
+   padding-top: 3%;
+   padding-bottom: 3%;
+   margin:25vh auto 0;
+   color: white;
+   background-color: rgba(0,0,0,0.7);
+   max-width:800px;
+}
+.main-content h2{
+  margin-bottom:3% ;
+}
+/*footer properties*/
+footer {
+  position: fixed;
+  bottom: 0;
+  padding: 10px 0;
+  width:100%;
+  background-color: #101010;
+  color:#9d9d9d;
+  z-index:1000;      
+}
+
+.space{
+  margin-top:10vh;
+}
+.margin{
+  margin-top:15vh;
+}
+.margin-2{
+  margin-top: 20vh;
+}
+.small-m{
+  margin-top:10px!important;
+}
+button,.panel-default>.panel-head,.link{
+  background-color: #00887A;
+  color: white;
+}
+.mt-5{
+  margin-top: 30px;
+}
+.mb-5{
+	margin-bottom:30px;
+}
+.mb-6{
+  margin-bottom: 60px;
+}
+.margin-0{
+margin:5px 0;
+}
+
+
+/* new plan page button properties */
+.button{
+  border: 1px solid #00887A;
+  background-color: transparent;
+  transition: all 0.3s linear;
+}
+.button1{
+  background-color: white;
+}
+.button:hover{
+  background-color: #00887A;
+  color: white;
+}
+.p-5{
+  padding: 100px 0;
+}
+.absolute{
+  position: absolute;
+  right: 40px;
+  margin-top: 0px;
+}
+.big-btn{
+  position: fixed;
+  right:70px;
+  bottom:50px;
+  font-size: 70px;
+}
+.ml-auto{
+  margin-left: auto;
+}
