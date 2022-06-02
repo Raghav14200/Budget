@@ -1,5 +1,4 @@
 <?php
-session_start();
 echo '<nav class="navbar navbar-inverse navbar-expand-md navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
