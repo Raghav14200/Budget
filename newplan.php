@@ -15,9 +15,9 @@
 
 <body>
    <!-- navigation bar -->
-   <?php
-   include "navbar.php";
-   ?>
+<?php
+include "navbar.php";
+?>
    <div class="container">
       <div class="col-md-6 col-md-offset-3 space">
          <div class="panel panel-default">
