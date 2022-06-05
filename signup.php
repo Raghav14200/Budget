@@ -19,9 +19,9 @@
 
   <body>
     <!-- navigation bar -->
-    <?php
-    include "navbar.php";
-    ?>
+<?php
+include "navbar.php";
+?>
 
     <!--Signup form-->
     <div class="container">
