@@ -19,9 +19,9 @@
   <body>
     
     <!-- navigation bar -->
-    <?php
-   include "navbar.php";
-   require "connect.php";
+<?php
+include "navbar.php";
+require "connect.php";
 $planid=$_GET['id'];
 $user_id=$_SESSION['id'];
 $remaining_amount=$_GET['remamount'];
