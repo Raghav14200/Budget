@@ -18,9 +18,9 @@
   </head>
   <body>
     <!-- navigation bar -->
-    <?php
-   include "navbar.php";
-   ?>
+<?php
+include "navbar.php";
+?>
     <!--main content-->
     <section class="content">
       <div class="main-content text-center">
