@@ -19,9 +19,9 @@
 
   <body>
     <!-- navigation bar -->
-    <?php
-   include "navbar.php";
-   ?>
+<?php
+include "navbar.php";
+?>
     <!--Login form-->
     <div class="container">
       <div class="col-md-6 space col-md-offset-3">
