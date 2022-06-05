@@ -18,11 +18,11 @@
   </head>
   <body>
     <!-- navigation bar -->
-    <?php
-   include "navbar.php";
-   ?>
-   <?php
-   include "connect.php";
+<?php
+include "navbar.php";
+?>
+<?php
+include "connect.php";
    $planid=$_GET['id'];
    $user_id=$_SESSION['id'];
    $planselect_query="select *,date_format(fromdate,'%D %b %Y') as efromdate,date_format(todate,'%D %b %Y') as etodate from plan where user_id='$user_id' and id='$planid'";
