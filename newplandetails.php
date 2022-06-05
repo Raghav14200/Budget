@@ -24,8 +24,8 @@ if($init<50 || $people<1){
 
 <body>
    <!-- navigation bar -->
-   <?php
-   include "navbar.php";
+<?php
+include "navbar.php";
    $_SESSION['init']=$init;
    $_SESSION['people']=$people;
    ?>
