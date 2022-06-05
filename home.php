@@ -18,9 +18,9 @@
   </head>
   <body>
     <!-- navigation bar -->
-    <?php
-   include "navbar.php";
-   ?>
+<?php
+include "navbar.php";
+?>
    <!--content-->
    <?php 
    include "connect.php";
