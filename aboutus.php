@@ -15,9 +15,9 @@
 
 <body>
    <!-- navigation bar -->
-   <?php
-   include "navbar.php";
-   ?>
+<?php
+include "navbar.php";
+?>
    <!--main content-->
    <div class="container">
       <div class="row margin">
